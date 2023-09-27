@@ -30,8 +30,9 @@
 
 @media (max-width: 800px) {
   .profil {
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     object-fit: cover;
+    object-position: 0% 32%;
   }
 }
