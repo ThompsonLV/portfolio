@@ -1,1 +1,74 @@
 // Specific CSS for your home-page
+
+@media (max-width: 2000px) {
+  .flex{
+    display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.projects {
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.home{
+  margin-bottom: 52px;
+  height: 100vh;
+}
+
+@media (max-width: 2000px) {
+  .me {
+    position : relative;
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .me {
+    position : relative;
+    width: 100%;
+  }
+}
+
+.presentation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background: rgba(67,83,52,0.9);
+  margin-top: 24px;
+  padding: 12px 28px;
+  width: 100%;
+}
+
+.details {
+  padding: 34px;
+  padding-right: 0px;
+}
+
+.detail {
+  margin-bottom: 40px;
+}
+
+.detail-title {
+  margin-bottom: 24px;
+  background: rgba(206,222,189, 1);
+  padding: 8px 24px;
+  border-radius: 40px 0 0 40px;
+}
+.detail-description {
+  padding-right: 30px;
+  padding-left: 24px;
+}

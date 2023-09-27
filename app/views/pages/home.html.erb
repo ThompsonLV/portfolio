@@ -1,2 +1,63 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="home flex">
+  <div class="me">
+    <%= image_tag("profil.jpg", alt: "profil", class: "profil") %>
+    <div class="presentation">
+      <h1>Salut, je m’appelle Thomas Le Véo !</h1>
+      <h2>Et je suis web développeur Full Stack</h2>
+    </div>
+  </div>
+
+  <div class="details">
+    <div class="detail">
+      <h2 class="detail-title">Je viens d’où ?</h2>
+      <p class="detail-description">Issu d’une formation d’ingénieur dans le bâtiment, j’ai décidé au bout de 7 ans  de me reconvertir en tant que Web Développeur au travers un bootcamp de 9 semaines</p>
+    </div>
+    <div class="detail">
+      <h2 class="detail-title">Quelle formation ?</h2>
+      <p class="detail-description">Le Wagon Lyon m’a permit de réussir cette reconversion.</p>
+    </div>
+    <div class="detail">
+      <h2 class="detail-title">Quelles stacks ?</h2>
+      <p class="detail-description">Je maîtrise CSS, Sass, HTML, Javascript, Ruby, Rails, Heroku, Bootstrap, Git, GitHub, Figma</p>
+    </div>
+  </div>
+</div>
+
+<div class="projects container">
+<h2 class="title">Mes projet</h2>
+  <div class="grid">
+    <div class="card-grid">
+      <h2 class="card-title">TourPic Explorer</h2>
+      <div class="card-description">
+        <p>
+          Application mobile créée sous Rails, en groupe de 3 pendant 2
+          semaines. Le but de l'application est de redécouvrir la ville de
+          Lyon à travers un défi photo pour inciter l'utilisateur à se rendre
+          sur le lieu. Plusieurs challenges sont disponibles, et un classement
+          entre amis disponible.
+        </p>
+        <%= link_to "Plus d'info", "https://github.com/ThompsonLV/TOURPIC_EXPLORER", class: "button" %>
+      </div>
+    </div>
+    <div class="card-grid">
+      <h2 class="card-title">FanesDeToi</h2>
+      <div class="card-description">
+        <p>
+          Application web, qui reprends la base de Airbnb, mais pour la vente de ventilateur.
+          Projet réalisé en groupe de trois, sur une semaine.
+        </p>
+        <%= link_to "Plus d'info", "https://github.com/ThompsonLV/FanesDeToi", class: "button" %>
+      </div>
+    </div>
+    <div class="card-grid">
+      <h2 class="card-title">Projet</h2>
+      <div class="card-description">
+        <p>
+          Application web, qui reprends la base de Airbnb, mais pour la présentation de films.
+          Projet réalisé en solitaire.
+        </p>
+        <%= link_to "Plus d'info", "https://github.com/ThompsonLV/testmovie", class: "button" %>
+      </div>
+    </div>
+  </div>
+</div>
