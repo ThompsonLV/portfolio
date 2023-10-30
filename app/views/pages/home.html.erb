@@ -1,36 +1,23 @@
-<div class="home flex">
-  <div class="me">
-    <%= image_tag("profil.jpg", alt: "profil", class: "profil") %>
-    <div class="presentation">
-      <h1>Salut, je m’appelle Thomas Le Véo !</h1>
-      <h4>Et je suis web développeur Full Stack</h4>
-    </div>
-  </div>
+<div class="navbar">
+  <a href="/">Accueil</a>
+  <a href="/">Mes projets</a>
+  <a href="/">Contact</a>
+</div>
 
-  <div class="details">
-    <div class="detail">
-      <h2 class="detail-title">Je viens d’où ?</h2>
-      <p class="detail-description">Issu d’une formation d’ingénieur dans le bâtiment, j’ai décidé au bout de 7 ans  de me reconvertir en tant que Web Développeur au travers un bootcamp de 9 semaines</p>
+<div class="header-profil">
+  <div class="title">
+    <h1>Thomas <span>Le Véo</span></h1>
+    <h4>Web developpeur Full Stack</h4>
+  </div>
+  <div class="presentation-profil">
+    <div class="column">
+      <h3>Truc bidule</h3>
     </div>
-    <div class="detail">
-      <h2 class="detail-title">Quelle formation ?</h2>
-      <p class="detail-description">Le Wagon Lyon m’a permit de réussir cette reconversion.</p>
+    <div class="column">
+      <%= image_tag("profil.png", alt: "avatar", class: "avatar") %>
     </div>
-    <div class="detail">
-      <h2 class="detail-title">Quelles stacks ?</h2>
-      <p class="detail-description">Je maîtrise CSS, Sass, HTML, Javascript, Ruby, Rails, Heroku, Bootstrap, Git, GitHub, Figma</p>
-      <div class="logos">
-        <%= image_tag("bootstrap.png", alt: "bootstrap", class: "logo") %>
-        <%= image_tag("CSS.png", alt: "CSS", class: "logo") %>
-        <%= image_tag("figma.png", alt: "bootstrap", class: "logo") %>
-        <%= image_tag("Git.png", alt: "Git", class: "logo") %>
-        <%= image_tag("GitHub.png", alt: "GitHub", class: "logo") %>
-        <%= image_tag("heroku.png", alt: "heroku", class: "logo") %>
-        <%= image_tag("HTML.png", alt: "HTML", class: "logo") %>
-        <%= image_tag("JS.png", alt: "JS", class: "logo") %>
-        <%= image_tag("rails.png", alt: "rails", class: "logo") %>
-        <%= image_tag("sass.png", alt: "sass", class: "logo") %>
-      </div>
+    <div class="column">
+      <h3>Truc bidule</h3>
     </div>
   </div>
 </div>
