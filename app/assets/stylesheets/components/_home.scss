@@ -2,6 +2,7 @@
   display: flex;
 }
 
+
 .short-presentation{
   flex-grow: 1;
   display: flex;
@@ -16,5 +17,15 @@
 
   h1{
     font-size: 5rem;
+  }
+}
+
+
+@media only screen and (max-width: 1000px){
+  .home{
+    display: block;
+  }
+  .title-presentation{
+    margin-top: 40px;
   }
 }

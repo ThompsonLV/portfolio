@@ -10,7 +10,13 @@
 @import "ratio";
 
 .page{
-  height: 100vh;
+  height: 46em;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 1000px){
+  .page{
+    height: 54em;
+  }
 }

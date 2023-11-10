@@ -12,3 +12,12 @@
   padding: 24px;
   flex-grow: 1;
 }
+
+@media only screen and (max-width: 1000px){
+  .my-profil{
+    flex-direction: column;
+  }
+  .presentation{
+    margin-bottom: 24px;
+  }
+}

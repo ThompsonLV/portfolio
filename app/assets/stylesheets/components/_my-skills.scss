@@ -40,3 +40,9 @@
   justify-content: center;
   margin-bottom: 24px;
 }
+
+@media only screen and (max-width: 1000px){
+  .all-skills{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
