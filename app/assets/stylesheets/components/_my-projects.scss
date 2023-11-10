@@ -3,17 +3,25 @@
   flex-grow: 1;
 }
 
+.all-projects{
+  display: flex;
+}
+
 .project{
   width: 24rem;
   border-radius: 8px;
   overflow: hidden;
+  margin-right: 24px;
 
   img{
     height: 12rem;
+    width: 100%;
     object-fit: cover;
     border-bottom: 4px solid $green;
   }
 }
+
+
 
 .short-description{
   background-color: $gray;

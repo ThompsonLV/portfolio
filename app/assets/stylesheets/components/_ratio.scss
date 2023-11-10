@@ -1,8 +1,3 @@
-// .box{
-//   background-color: white;
-//   padding: 3em;
-// }
-
 svg{
   height: 150px;
   width: 150px;
@@ -16,22 +11,128 @@ svg circle{
   stroke-dasharray: 440px;
   stroke-dashoffset: 440px;
   stroke-linecap: round;
+
 }
 
 svg circle:nth-child(1){
-  stroke: gray;
+  stroke: $light-gray;
   stroke-dashoffset: 0;
 }
 
-svg circle:nth-child(2){
-  animation: circle 2s ease-out forwards;
+svg .circle1:nth-child(2){
+  animation: sevenPourcent 1s ease-out forwards;
 }
 
-@keyframes circle{
+svg .circle2:nth-child(2){
+  animation: sevenPourcent 1s ease-out forwards;
+}
+
+svg .circle3:nth-child(2){
+  animation: fivePourcent 1s ease-out forwards;
+}
+
+svg .circle4:nth-child(2){
+  animation: sevenPourcent 1s ease-out forwards;
+}
+
+svg .circle5:nth-child(2){
+  animation: threePourcent 1s ease-out forwards;
+}
+
+svg .circle6:nth-child(2){
+  animation: fourPourcent 1s ease-out forwards;
+}
+
+svg .circle7:nth-child(2){
+  animation: fivePourcent 1s ease-out forwards;
+}
+
+@keyframes onePourcent{
+  0%{
+    stroke-dashoffset: 440px;
+  }
+  100%{
+    stroke-dashoffset: 440px;
+  }
+}
+
+@keyframes twoPourcent{
+  0%{
+    stroke-dashoffset: 440px;
+  }
+  100%{
+    stroke-dashoffset: 396px;
+  }
+}
+
+@keyframes threePourcent{
+  0%{
+    stroke-dashoffset: 440px;
+  }
+  100%{
+    stroke-dashoffset: 352px;
+  }
+}
+
+@keyframes fourPourcent{
+  0%{
+    stroke-dashoffset: 440px;
+  }
+  100%{
+    stroke-dashoffset: 308px;
+  }
+}
+
+@keyframes fivePourcent{
   0%{
     stroke-dashoffset: 440px;
   }
   100%{
     stroke-dashoffset: 220px;
+  }
+}
+
+@keyframes sixPourcent{
+  0%{
+    stroke-dashoffset: 440px;
+  }
+  100%{
+    stroke-dashoffset: 264px;
+  }
+}
+
+@keyframes sevenPourcent{
+  0%{
+    stroke-dashoffset: 440px;
+  }
+  100%{
+    stroke-dashoffset: 176px;
+  }
+}
+
+@keyframes heigtPourcent{
+  0%{
+    stroke-dashoffset: 440px;
+  }
+  100%{
+    stroke-dashoffset: 132px;
+  }
+}
+
+@keyframes ninePourcent{
+  0%{
+    stroke-dashoffset: 440px;
+  }
+  100%{
+    stroke-dashoffset: 88px;
+  }
+}
+
+@keyframes tenPourcent{
+  0%{
+    stroke-dashoffset: 440px;
+  }
+  100%{
+    stroke-dashoffset: 44px;
   }
 }
