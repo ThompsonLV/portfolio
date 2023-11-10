@@ -1,8 +1,16 @@
 // Import your components CSS files here.
-@import "alert";
-@import "avatar";
 @import "form_legend_clear";
-@import "navbar";
-@import "card";
+@import "home";
+@import "my-profil";
+@import "my-skills";
+@import "my-projects";
+@import "avatar";
 @import "button";
-@import "header";
+@import "font";
+@import "ratio";
+
+.page{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}

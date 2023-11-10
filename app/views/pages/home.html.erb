@@ -1,61 +1,118 @@
-<div class="navbar">
-  <a href="/">Accueil</a>
-  <a href="/">Mes projets</a>
-  <a href="/">Contact</a>
-</div>
-
-<div class="header-profil">
-  <div class="title">
-    <h1>Thomas <span>Le Véo</span></h1>
-    <h4>Web developpeur Full Stack</h4>
+<div class="home">
+  <div class="avatar-home">
+    <%= image_tag "profil.jpg", class:"avatar-home" %>
   </div>
-  <div class="presentation-profil">
-    <div class="column">
-      <h3>Truc bidule</h3>
+  <div class="short-presentation">
+    <div class="title-presentation">
+      <h2>Thomas Le Véo</h2>
+      <h1>Web Développeur <span class="highlighted-text-violet">full stack</span></h1>
     </div>
-    <div class="column">
-      <%= image_tag("profil.png", alt: "avatar", class: "avatar") %>
-    </div>
-    <div class="column">
-      <h3>Truc bidule</h3>
+    <div class="contact">
+      <p><span class="large-text">Email</span> thomasleveo@gmail.com</p>
+      <p><span class="large-text">Tel</span> +33 6 37 47 38 07</p>
+      <p><span class="large-text">Villes</span> Paris / Lyon</p>
+
     </div>
   </div>
 </div>
 
-<div class="projects container">
-<h2 class="title">Mes projet</h2>
-  <div class="grid">
-    <div class="card-grid">
-      <h4 class="card-title">TourPic Explorer</h4>
-      <div class="card-description">
-        <p>
-          Application mobile créée sous Rails, en groupe de 3 pendant 2
-          semaines. Le but de l'application est de redécouvrir la ville de
-          Lyon à travers un défi photo pour inciter l'utilisateur à se rendre
-          sur le lieu. Plusieurs challenges sont disponibles, et un classement
-          entre amis disponible.
-        </p>
-        <%= link_to "Plus d'info", "https://github.com/ThompsonLV/TOURPIC_EXPLORER", class: "button" %>
+<div class="page">
+  <div class="my-profil">
+    <div class="small-avatar">
+      <%= image_tag "profil.jpg", class:"small-avatar-shadowed" %>
+    </div>
+    <div class="presentation">
+      <div class="subtitle">
+        <h3 class="text-green">Qui je suis ?</h3>
+        <h3>Thomas Le Véo, ingénieur bâtiment reconverti en web développeur</h3>
+      </div>
+      <p>
+        Issu d'une formation d'ingénieur, et après 7 années en entreprise en tant
+        que chargé d’opérations, je me suis passionné pour le Web Développement et
+        ai décidé d'entamer une reconversion professionnelle. Après m'être formé
+        plusieurs mois en autodidacte en parallèle de mon travail, j'ai décidé de
+        me dédier à 100% au Web Developpement. Pour concrétiser cette transition,
+        j'ai suivi avec succès une formation intensive de  9 semaines au sein du
+        Wagon à Lyon. Cette expérience a renforcé ma passion et  validé mes
+        compétences dans le domaine
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+  <div class="my-skills">
+    <h2 class="subtitle">Skills</h2>
+    <div class="all-skills">
+      <div class="skill">
+        <svg>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <span>100%</span>
+        <h3 class="skill-title">HTML</h3>
+        </svg>
+      </div>
+      <div class="skill">
+        <svg>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <span>100%</span>
+        <h3 class="skill-title">CSS</h3>
+        </svg>
+      </div>
+      <div class="skill">
+        <svg>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <span>100%</span>
+        <h3 class="skill-title">JS</h3>
+        </svg>
+      </div>
+      <div class="skill">
+        <svg>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <span>100%</span>
+        <h3 class="skill-title">Ruby on rails</h3>
+        </svg>
+      </div>
+      <div class="skill">
+        <svg>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <span>100%</span>
+        <h3 class="skill-title">REACT</h3>
+        </svg>
+      </div>
+      <div class="skill">
+        <svg>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <span>100%</span>
+        <h3 class="skill-title">SQL</h3>
+        </svg>
+      </div>
+      <div class="skill">
+        <svg>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <circle cx="70px" cy="70px" r="70px"></circle>
+          <span>100%</span>
+        <h3 class="skill-title">FIGMA</h3>
+        </svg>
       </div>
     </div>
-    <div class="card-grid">
-      <h4 class="card-title">FanesDeToi</h4>
-      <div class="card-description">
-        <p>
-          Application web, qui reprends la base de Airbnb, mais pour la vente de ventilateur.
-          Projet réalisé en groupe de trois, sur une semaine.
-        </p>
-        <%= link_to "Plus d'info", "https://github.com/ThompsonLV/FanesDeToi", class: "button" %>
-      </div>
-    </div>
-    <div class="card-grid">
-      <h4 class="card-title">Movies</h4>
-      <div class="card-description">
-        <p>
-          Application web, qui reprends la base de Airbnb, mais pour la présentation de films.
-          Projet réalisé en solitaire.
-        </p>
-        <%= link_to "Plus d'info", "https://github.com/ThompsonLV/testmovie", class: "button" %>
+    <p>A la suite de ma formation avec le </p>
+  </div>
+</div>
+
+<div class="page">
+  <div class="my-project">
+    <h2 class="subtitle">Mes projets</h2>
+    <div class="project">
+      <%= image_tag "profil.jpg", class:"project" %>
+      <div class="short-description">
+        <h3>Projet 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur soluta, alias suscipit consequatur voluptatum sint nemo mollitia, necessitatibus, pariatur voluptate recusandae facere. Consequatur molestias vero, nihil quae autem optio voluptatem.</p>
       </div>
     </div>
   </div>

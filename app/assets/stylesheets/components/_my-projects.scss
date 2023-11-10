@@ -1,0 +1,25 @@
+.my-project{
+  margin: 0 100px 0 100px;
+  flex-grow: 1;
+}
+
+.project{
+  width: 24rem;
+  border-radius: 8px;
+  overflow: hidden;
+
+  img{
+    height: 12rem;
+    object-fit: cover;
+    border-bottom: 4px solid $green;
+  }
+}
+
+.short-description{
+  background-color: $gray;
+  padding: 10px 20px;
+
+  p{
+    margin: 0px;
+  }
+}
