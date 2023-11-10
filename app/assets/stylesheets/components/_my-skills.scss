@@ -1,5 +1,5 @@
 .my-skills{
-  margin: 0 100px 0 100px;
+  margin-bottom: 5em;
   flex-grow: 1;
 }
 
@@ -44,5 +44,11 @@
 @media only screen and (max-width: 1000px){
   .all-skills{
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .all-skills{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
