@@ -49,31 +49,31 @@ svg .circle7:nth-child(2){
 }
 
 // Avec animation qui s'active via le JS animated-circle (quand on voit le svg)
-svg .circle1:nth-child(2).visible{
+svg .circle1:nth-child(2).reveal{
   animation: sevenPourcent 3s ease-out forwards;
 }
 
-svg .circle2:nth-child(2).visible{
+svg .circle2:nth-child(2).reveal{
   animation: sevenPourcent 3s ease-out forwards;
 }
 
-svg .circle3:nth-child(2).visible{
+svg .circle3:nth-child(2).reveal{
   animation: fivePourcent 3s ease-out forwards;
 }
 
-svg .circle4:nth-child(2).visible{
+svg .circle4:nth-child(2).reveal{
   animation: sevenPourcent 3s ease-out forwards;
 }
 
-svg .circle5:nth-child(2).visible{
+svg .circle5:nth-child(2).reveal{
   animation: threePourcent 3s ease-out forwards;
 }
 
-svg .circle6:nth-child(2).visible{
+svg .circle6:nth-child(2).reveal{
   animation: fourPourcent 3s ease-out forwards;
 }
 
-svg .circle7:nth-child(2).visible{
+svg .circle7:nth-child(2).reveal{
   animation: fivePourcent 3s ease-out forwards;
 }
 
