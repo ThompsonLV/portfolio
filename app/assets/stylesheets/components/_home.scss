@@ -7,7 +7,6 @@
   }
 }
 
-
 .short-presentation{
   flex-grow: 1;
   display: flex;
@@ -34,6 +33,7 @@
   justify-content: end;
   display: flex;
   flex-direction: column;
+  width: fit-content;
 
   a{
     color: white;
@@ -48,9 +48,9 @@
 }
 
 
-// * Responsive design
-// * -----------------------------------------------------
-@media only screen and (max-width: 1200px){
+// Responsive design
+// -----------------------------------------------------
+@media only screen and (max-width: 1050px){
   .home{
     display: block;
   }

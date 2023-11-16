@@ -11,7 +11,6 @@ svg circle{
   stroke-dasharray: 440px;
   stroke-dashoffset: 440px;
   stroke-linecap: round;
-
 }
 
 svg circle:nth-child(1){
@@ -19,36 +18,7 @@ svg circle:nth-child(1){
   stroke-dashoffset: 0;
 }
 
-// Sans animation
-svg .circle1:nth-child(2){
-  animation: none;
-}
-
-svg .circle2:nth-child(2){
-  animation: none;
-}
-
-svg .circle3:nth-child(2){
-  animation: none;
-}
-
-svg .circle4:nth-child(2){
-  animation: none;
-}
-
-svg .circle5:nth-child(2){
-  animation: none;
-}
-
-svg .circle6:nth-child(2){
-  animation: none;
-}
-
-svg .circle7:nth-child(2){
-  animation: none;
-}
-
-// Avec animation qui s'active via le JS animated-circle (quand on voit le svg)
+// Animation qui s'active via le JS animated-circle (quand on voit le svg)
 svg .circle1:nth-child(2).reveal{
   animation: sevenPourcent 3s ease-out forwards;
 }
@@ -76,6 +46,7 @@ svg .circle6:nth-child(2).reveal{
 svg .circle7:nth-child(2).reveal{
   animation: fivePourcent 3s ease-out forwards;
 }
+
 
 @keyframes onePourcent{
   0%{

@@ -25,6 +25,7 @@
   .avatar-home{
     height: 20em;
     width: 100%;
+    object-position: 50% 45%;
   }
 
   .small-avatar-shadowed{
@@ -32,6 +33,7 @@
     height: 18rem;
     object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    object-position: 50% 45%;
   }
 }
