@@ -1,1 +1,4 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Salut à toi ! 
+
+A ta disposition mon code ;)
+Hésite pas à faire un tour sur le site directement pour voir le rendu ;) (en cours de création d'un nom de domaine)
