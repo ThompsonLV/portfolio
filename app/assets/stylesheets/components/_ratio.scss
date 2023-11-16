@@ -19,32 +19,62 @@ svg circle:nth-child(1){
   stroke-dashoffset: 0;
 }
 
+// Sans animation
 svg .circle1:nth-child(2){
-  animation: sevenPourcent 1s ease-out forwards;
+  animation: none;
 }
 
 svg .circle2:nth-child(2){
-  animation: sevenPourcent 1s ease-out forwards;
+  animation: none;
 }
 
 svg .circle3:nth-child(2){
-  animation: fivePourcent 1s ease-out forwards;
+  animation: none;
 }
 
 svg .circle4:nth-child(2){
-  animation: sevenPourcent 1s ease-out forwards;
+  animation: none;
 }
 
 svg .circle5:nth-child(2){
-  animation: threePourcent 1s ease-out forwards;
+  animation: none;
 }
 
 svg .circle6:nth-child(2){
-  animation: fourPourcent 1s ease-out forwards;
+  animation: none;
 }
 
 svg .circle7:nth-child(2){
-  animation: fivePourcent 1s ease-out forwards;
+  animation: none;
+}
+
+// Avec animation qui s'active via le JS animated-circle (quand on voit le svg)
+svg .circle1:nth-child(2).visible{
+  animation: sevenPourcent 3s ease-out forwards;
+}
+
+svg .circle2:nth-child(2).visible{
+  animation: sevenPourcent 3s ease-out forwards;
+}
+
+svg .circle3:nth-child(2).visible{
+  animation: fivePourcent 3s ease-out forwards;
+}
+
+svg .circle4:nth-child(2).visible{
+  animation: sevenPourcent 3s ease-out forwards;
+}
+
+svg .circle5:nth-child(2).visible{
+  animation: threePourcent 3s ease-out forwards;
+}
+
+svg .circle6:nth-child(2).visible{
+  animation: fourPourcent 3s ease-out forwards;
+}
+
+svg .circle7:nth-child(2).visible{
+  animation: fivePourcent 3s ease-out forwards;
 }
 
 @keyframes onePourcent{
