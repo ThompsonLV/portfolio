@@ -17,11 +17,11 @@
 
 .title-presentation{
   flex-grow: 1;
-  text-align: center;
   padding: 32px;
   justify-content: end;
   display: flex;
   flex-direction: column;
+  text-align: -webkit-center;
 
   h1{
     font-size: 5rem;

@@ -1,6 +1,9 @@
-.highlighted-text-violet{
-  color: $violet;
+.linear-gradient-text-violet{
+  background: linear-gradient(to right, $violet, $green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   display: block;
+  width: fit-content;
 }
 
 .text-green{
